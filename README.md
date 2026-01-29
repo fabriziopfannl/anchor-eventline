@@ -97,4 +97,4 @@ This project is not audited. Use at your own risk.
 Apache-2.0. See `LICENSE`.
 
 ## Docs
-REPO_URL_PLACEHOLDER
+https://github.com/fabriziopfannl/anchor-eventline
