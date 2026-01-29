@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "Standardized Anchor event schemas for reliable off-chain indexing."
 license = "Apache-2.0"
-repository = "REPO_URL_PLACEHOLDER"
+repository = "https://github.com/fabriziopfannl/anchor-eventline"
 readme = "../../README.md"
 
 [dependencies]

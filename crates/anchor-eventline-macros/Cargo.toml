@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "Derive macros for anchor-eventline."
 license = "Apache-2.0"
-repository = "REPO_URL_PLACEHOLDER"
+repository = "https://github.com/fabriziopfannl/anchor-eventline"
 
 [lib]
 proc-macro = true
