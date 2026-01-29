@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "TypeScript SDK for decoding Anchor events with a stable schema.",
   "license": "Apache-2.0",
-  "repository": "REPO_URL_PLACEHOLDER",
+  "repository": "https://github.com/fabriziopfannl/anchor-eventline",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
