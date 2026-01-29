@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/anchor-eventline",
+  "crates/anchor-eventline-macros",
+  "examples/anchor-program/programs/eventline_example",
+]
+
+[workspace.package]
+edition = "2021"
+license = "Apache-2.0"
+repository = "REPO_URL_PLACEHOLDER"

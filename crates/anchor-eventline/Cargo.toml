@@ -1,0 +1,17 @@
+[package]
+name = "anchor-eventline"
+version = "0.1.0"
+edition = "2021"
+description = "Standardized Anchor event schemas for reliable off-chain indexing."
+license = "Apache-2.0"
+repository = "REPO_URL_PLACEHOLDER"
+readme = "../../README.md"
+
+[dependencies]
+anchor-eventline-macros = { path = "../anchor-eventline-macros", version = "0.1.0" }
+thiserror = "1.0"
+sha2 = "0.10"
+
+[features]
+default = []
+anchor = []

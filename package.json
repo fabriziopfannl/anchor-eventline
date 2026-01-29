@@ -1,0 +1,5 @@
+{
+  "name": "anchor-eventline-monorepo",
+  "private": true,
+  "packageManager": "pnpm@9.0.0"
+}

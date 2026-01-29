@@ -1,0 +1,16 @@
+{
+  "name": "eventline-example-ts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "ts-node src/decode_from_signature.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "@eventline/anchor-events": "workspace:*"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.0"
+  }
+}
