@@ -3,6 +3,8 @@
 Standardized Anchor events for reliable off-chain indexing.
 
 ![CI](https://img.shields.io/badge/ci-passing-brightgreen)
+![crates.io](https://img.shields.io/crates/v/anchor-eventline)
+![npm](https://img.shields.io/npm/v/sol-eventline)
 ![license](https://img.shields.io/badge/license-Apache--2.0-blue)
 
 ## Quickstart (Rust)
@@ -24,11 +26,11 @@ pub struct SwapEvent {
 
 ## Quickstart (TypeScript)
 ```bash
-pnpm add @eventline/anchor-events
+pnpm add sol-eventline
 ```
 
 ```ts
-import { decodeEventLogs } from "@eventline/anchor-events";
+import { decodeEventLogs } from "sol-eventline";
 ```
 
 ## Why Eventline?
@@ -59,7 +61,7 @@ let disc = SwapEvent::discriminator();
 
 ## API (TypeScript)
 ```ts
-import { decodeEventLogs } from "@eventline/anchor-events";
+import { decodeEventLogs } from "sol-eventline";
 
 const events = decodeEventLogs(logs, {
   SwapEvent: { version: 1, decoder: (buf) => ({ raw: buf }) },
