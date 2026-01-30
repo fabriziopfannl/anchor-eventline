@@ -93,7 +93,7 @@ $HOME/tools/anchor-0.28.0/bin/anchor build
 SemVer strict. Keep Rust crate and TS package aligned for public releases.
 
 ## Security
-This project is not audited. Use at your own risk.
+Security reviews are welcome. No formal audit has been performed.
 
 ## License
 Apache-2.0. See `LICENSE`.
